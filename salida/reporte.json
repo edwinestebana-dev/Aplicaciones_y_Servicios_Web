@@ -1,0 +1,2568 @@
+{
+  "resumen": {
+    "procesados": 400,
+    "normalizados": 391,
+    "errores_normalizacion": 9,
+    "validos_localmente": 380,
+    "rechazados_localmente": 11,
+    "enviados": 380,
+    "aceptados_api": 0,
+    "rechazados_api": 0,
+    "errores_comunicacion": 380
+  },
+  "consulta_final": {
+    "ok": false,
+    "codigo": null,
+    "mensaje": "Pérdida de conexión al consultar mediciones: HTTPSConnectionPool(host='api-institucional.example.com', port=443): Max retries exceeded with url: /api/v1/mediciones?equipo=equipo-01 (Caused by NameResolutionError(\"HTTPSConnection(host='api-institucional.example.com', port=443): Failed to resolve 'api-institucional.example.com' ([Errno 11001] getaddrinfo failed)\"))",
+    "cuerpo": null
+  },
+  "detalle": [
+    {
+      "id_trazabilidad": "A-0001",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Pérdida de conexión al registrar la medición: HTTPSConnectionPool(host='api-institucional.example.com', port=443): Max retries exceeded with url: /api/v1/mediciones (Caused by NameResolutionError(\"HTTPSConnection(host='api-institucional.example.com', port=443): Failed to resolve 'api-institucional.example.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "http_codigo": null,
+      "http_cuerpo": null,
+      "intentos": 3
+    },
+    {
+      "id_trazabilidad": "A-0002",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Pérdida de conexión al registrar la medición: HTTPSConnectionPool(host='api-institucional.example.com', port=443): Max retries exceeded with url: /api/v1/mediciones (Caused by NameResolutionError(\"HTTPSConnection(host='api-institucional.example.com', port=443): Failed to resolve 'api-institucional.example.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "http_codigo": null,
+      "http_cuerpo": null,
+      "intentos": 3
+    },
+    {
+      "id_trazabilidad": "A-0003",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Pérdida de conexión al registrar la medición: HTTPSConnectionPool(host='api-institucional.example.com', port=443): Max retries exceeded with url: /api/v1/mediciones (Caused by NameResolutionError(\"HTTPSConnection(host='api-institucional.example.com', port=443): Failed to resolve 'api-institucional.example.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "http_codigo": null,
+      "http_cuerpo": null,
+      "intentos": 3
+    },
+    {
+      "id_trazabilidad": "A-0004",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Pérdida de conexión al registrar la medición: HTTPSConnectionPool(host='api-institucional.example.com', port=443): Max retries exceeded with url: /api/v1/mediciones (Caused by NameResolutionError(\"HTTPSConnection(host='api-institucional.example.com', port=443): Failed to resolve 'api-institucional.example.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "http_codigo": null,
+      "http_cuerpo": null,
+      "intentos": 3
+    },
+    {
+      "id_trazabilidad": "A-0005",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Pérdida de conexión al registrar la medición: HTTPSConnectionPool(host='api-institucional.example.com', port=443): Max retries exceeded with url: /api/v1/mediciones (Caused by NameResolutionError(\"HTTPSConnection(host='api-institucional.example.com', port=443): Failed to resolve 'api-institucional.example.com' ([Errno 11001] getaddrinfo failed)\"))",
+      "http_codigo": null,
+      "http_cuerpo": null,
+      "intentos": 3
+    },
+    {
+      "id_trazabilidad": "A-0006",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0007",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0008",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0009",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0010",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0011",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0012",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0013",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0014",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0015",
+      "origen": "proveedor_a",
+      "resultado": "rechazado_localmente",
+      "motivo": "humedad debe estar entre 0 y 100",
+      "medicion": {
+        "id_trazabilidad": "A-0015",
+        "ciudad": "Barranquilla",
+        "pais": "CO",
+        "latitud": 10.969955,
+        "longitud": -74.762201,
+        "temperatura_c": 28.67,
+        "humedad": 108.4,
+        "viento_kmh": 10.01,
+        "fecha_hora": "2026-09-01T07:00:00-05:00",
+        "origen": "proveedor_a"
+      }
+    },
+    {
+      "id_trazabilidad": "A-0016",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0017",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0018",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0019",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0020",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0021",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0022",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0023",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0024",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0025",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0026",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0027",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0028",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0029",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0030",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0031",
+      "origen": "proveedor_a",
+      "resultado": "rechazado_localmente",
+      "motivo": "latitud debe estar entre -90 y 90",
+      "medicion": {
+        "id_trazabilidad": "A-0031",
+        "ciudad": "Barranquilla",
+        "pais": "CO",
+        "latitud": 95.245,
+        "longitud": -74.746472,
+        "temperatura_c": 20.78,
+        "humedad": 75.3,
+        "viento_kmh": 12.85,
+        "fecha_hora": "2026-09-01T15:00:00-05:00",
+        "origen": "proveedor_a"
+      }
+    },
+    {
+      "id_trazabilidad": "A-0032",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0033",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0034",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0035",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0036",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0037",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0038",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0039",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0040",
+      "origen": "proveedor_a",
+      "resultado": "error_normalizacion",
+      "motivo": "No se encontró el campo fecha_hora"
+    },
+    {
+      "id_trazabilidad": "A-0041",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0042",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0043",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0044",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0045",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0046",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0047",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0048",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0049",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0050",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0051",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0052",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0053",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0054",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0055",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0056",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0057",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0058",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0059",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0060",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0061",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0062",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0063",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0064",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0065",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0066",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0067",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0068",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0069",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0070",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0071",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0072",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0073",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0074",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0075",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0076",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0077",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0078",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0079",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0080",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0081",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0082",
+      "origen": "proveedor_a",
+      "resultado": "error_normalizacion",
+      "motivo": "temperatura_c='N/A' no puede convertirse a número"
+    },
+    {
+      "id_trazabilidad": "A-0083",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0084",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0085",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0086",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0087",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0088",
+      "origen": "proveedor_a",
+      "resultado": "rechazado_localmente",
+      "motivo": "viento_kmh debe ser mayor o igual a 0",
+      "medicion": {
+        "id_trazabilidad": "A-0088",
+        "ciudad": "Bogota",
+        "pais": "CO",
+        "latitud": 4.722662,
+        "longitud": -74.078919,
+        "temperatura_c": 23.83,
+        "humedad": 64.1,
+        "viento_kmh": -8.64,
+        "fecha_hora": "2026-09-02T19:30:00-05:00",
+        "origen": "proveedor_a"
+      }
+    },
+    {
+      "id_trazabilidad": "A-0089",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0090",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0091",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0092",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0093",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0094",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0095",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0096",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0097",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0098",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0099",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0100",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0101",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0102",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0103",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0104",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0105",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0106",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0107",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0108",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0109",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0110",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0111",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0112",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0113",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0114",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0115",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0116",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0117",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0118",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0119",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0120",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0121",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0122",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0123",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0124",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0125",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0126",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0127",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0128",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0129",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0130",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0131",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0132",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0133",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0134",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0135",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0136",
+      "origen": "proveedor_a",
+      "resultado": "rechazado_localmente",
+      "motivo": "ciudad no puede estar vacía",
+      "medicion": {
+        "id_trazabilidad": "A-0136",
+        "ciudad": "",
+        "pais": "CO",
+        "latitud": 4.714573,
+        "longitud": -74.076243,
+        "temperatura_c": 20.83,
+        "humedad": 62.1,
+        "viento_kmh": 5.36,
+        "fecha_hora": "2026-09-03T19:30:00-05:00",
+        "origen": "proveedor_a"
+      }
+    },
+    {
+      "id_trazabilidad": "A-0137",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0138",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0139",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0140",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0141",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0142",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0143",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0144",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0145",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0146",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0147",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0148",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0149",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0150",
+      "origen": "proveedor_a",
+      "resultado": "error_normalizacion",
+      "motivo": "No se encontró el campo pais"
+    },
+    {
+      "id_trazabilidad": "A-0151",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0152",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0153",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0154",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0155",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0156",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0157",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0158",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0159",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0160",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0161",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0162",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0163",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0164",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0165",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0166",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0167",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0168",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0169",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0170",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0171",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0172",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0173",
+      "origen": "proveedor_a",
+      "resultado": "error_normalizacion",
+      "motivo": "temperatura_c está vacío y no puede convertirse a número"
+    },
+    {
+      "id_trazabilidad": "A-0174",
+      "origen": "proveedor_a",
+      "resultado": "error_normalizacion",
+      "motivo": "fecha_hora='09-XX-2026 25:61' no es una fecha válida"
+    },
+    {
+      "id_trazabilidad": "A-0175",
+      "origen": "proveedor_a",
+      "resultado": "rechazado_localmente",
+      "motivo": "longitud debe estar entre -180 y 180",
+      "medicion": {
+        "id_trazabilidad": "A-0175",
+        "ciudad": "Cali",
+        "pais": "CO",
+        "latitud": 3.475479,
+        "longitud": -190.75,
+        "temperatura_c": 23.17,
+        "humedad": 91.3,
+        "viento_kmh": 16.74,
+        "fecha_hora": "2026-09-04T15:00:00-05:00",
+        "origen": "proveedor_a"
+      }
+    },
+    {
+      "id_trazabilidad": "A-0176",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0177",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0178",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0179",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0180",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0181",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0182",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0183",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0184",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0185",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0186",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0187",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0188",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0189",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0190",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0191",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0192",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0193",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0194",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0195",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0196",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0197",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0198",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0199",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "A-0200",
+      "origen": "proveedor_a",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0001",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0002",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0003",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0004",
+      "origen": "proveedor_b",
+      "resultado": "rechazado_localmente",
+      "motivo": "humedad debe estar entre 0 y 100",
+      "medicion": {
+        "id_trazabilidad": "B-0004",
+        "ciudad": "Medellin",
+        "pais": "CO",
+        "latitud": 6.258034,
+        "longitud": -75.54765,
+        "temperatura_c": 21.1,
+        "humedad": 117.5,
+        "viento_kmh": 25.37,
+        "fecha_hora": "2026-09-01T08:15:00-05:00",
+        "origen": "proveedor_b"
+      }
+    },
+    {
+      "id_trazabilidad": "B-0005",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0006",
+      "origen": "proveedor_b",
+      "resultado": "rechazado_localmente",
+      "motivo": "latitud debe estar entre -90 y 90",
+      "medicion": {
+        "id_trazabilidad": "B-0006",
+        "ciudad": "Cali",
+        "pais": "CO",
+        "latitud": -94.22,
+        "longitud": -76.492907,
+        "temperatura_c": 18.11,
+        "humedad": 62.0,
+        "viento_kmh": 21.68,
+        "fecha_hora": "2026-09-01T09:45:00-05:00",
+        "origen": "proveedor_b"
+      }
+    },
+    {
+      "id_trazabilidad": "B-0007",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0008",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0009",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0010",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0011",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0012",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0013",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0014",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0015",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0016",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0017",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0018",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0019",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0020",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0021",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0022",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0023",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0024",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0025",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0026",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0027",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0028",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0029",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0030",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0031",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0032",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0033",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0034",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0035",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0036",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0037",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0038",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0039",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0040",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0041",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0042",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0043",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0044",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0045",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0046",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0047",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0048",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0049",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0050",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0051",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0052",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0053",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0054",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0055",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0056",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0057",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0058",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0059",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0060",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0061",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0062",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0063",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0064",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0065",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0066",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0067",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0068",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0069",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0070",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0071",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0072",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0073",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0074",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0075",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0076",
+      "origen": "proveedor_b",
+      "resultado": "error_normalizacion",
+      "motivo": "fecha_hora está vacía y no puede convertirse"
+    },
+    {
+      "id_trazabilidad": "B-0077",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0078",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0079",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0080",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0081",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0082",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0083",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0084",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0085",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0086",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0087",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0088",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0089",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0090",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0091",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0092",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0093",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0094",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0095",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0096",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0097",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0098",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0099",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0100",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0101",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0102",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0103",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0104",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0105",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0106",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0107",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0108",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0109",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0110",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0111",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0112",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0113",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0114",
+      "origen": "proveedor_b",
+      "resultado": "error_normalizacion",
+      "motivo": "temperatura_c='error' no puede convertirse a número"
+    },
+    {
+      "id_trazabilidad": "B-0115",
+      "origen": "proveedor_b",
+      "resultado": "rechazado_localmente",
+      "motivo": "viento_kmh debe ser mayor o igual a 0",
+      "medicion": {
+        "id_trazabilidad": "B-0115",
+        "ciudad": "Bogota",
+        "pais": "CO",
+        "latitud": 4.729888,
+        "longitud": -74.069887,
+        "temperatura_c": 23.61,
+        "humedad": 63.2,
+        "viento_kmh": -7.4,
+        "fecha_hora": "2026-09-04T19:30:00-05:00",
+        "origen": "proveedor_b"
+      }
+    },
+    {
+      "id_trazabilidad": "B-0116",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0117",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0118",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0119",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0120",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0121",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0122",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0123",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0124",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0125",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0126",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0127",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0128",
+      "origen": "proveedor_b",
+      "resultado": "rechazado_localmente",
+      "motivo": "ciudad no puede estar vacía",
+      "medicion": {
+        "id_trazabilidad": "B-0128",
+        "ciudad": "",
+        "pais": "CO",
+        "latitud": 10.956283,
+        "longitud": -74.799257,
+        "temperatura_c": 19.97,
+        "humedad": 88.5,
+        "viento_kmh": 11.32,
+        "fecha_hora": "2026-09-05T05:15:00-05:00",
+        "origen": "proveedor_b"
+      }
+    },
+    {
+      "id_trazabilidad": "B-0129",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0130",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0131",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0132",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0133",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0134",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0135",
+      "origen": "proveedor_b",
+      "resultado": "rechazado_localmente",
+      "motivo": "pais no puede estar vacío",
+      "medicion": {
+        "id_trazabilidad": "B-0135",
+        "ciudad": "Cartagena",
+        "pais": "",
+        "latitud": 10.429149,
+        "longitud": -75.47476,
+        "temperatura_c": 21.41,
+        "humedad": 64.8,
+        "viento_kmh": 13.44,
+        "fecha_hora": "2026-09-05T10:30:00-05:00",
+        "origen": "proveedor_b"
+      }
+    },
+    {
+      "id_trazabilidad": "B-0136",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0137",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0138",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0139",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0140",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0141",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0142",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0143",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0144",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0145",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0146",
+      "origen": "proveedor_b",
+      "resultado": "error_normalizacion",
+      "motivo": "temperatura_c está vacío y no puede convertirse a número"
+    },
+    {
+      "id_trazabilidad": "B-0147",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0148",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0149",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0150",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0151",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0152",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0153",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0154",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0155",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0156",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0157",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0158",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0159",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0160",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0161",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0162",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0163",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0164",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0165",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0166",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0167",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0168",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0169",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0170",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0171",
+      "origen": "proveedor_b",
+      "resultado": "error_normalizacion",
+      "motivo": "fecha_hora='31/13/2026 28:75' no es una fecha válida"
+    },
+    {
+      "id_trazabilidad": "B-0172",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0173",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0174",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0175",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0176",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0177",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0178",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0179",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0180",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0181",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0182",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0183",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0184",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0185",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0186",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0187",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0188",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0189",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0190",
+      "origen": "proveedor_b",
+      "resultado": "rechazado_localmente",
+      "motivo": "longitud debe estar entre -180 y 180",
+      "medicion": {
+        "id_trazabilidad": "B-0190",
+        "ciudad": "Cali",
+        "pais": "CO",
+        "latitud": 3.462974,
+        "longitud": 188.45,
+        "temperatura_c": 23.16,
+        "humedad": 69.7,
+        "viento_kmh": 13.86,
+        "fecha_hora": "2026-09-07T03:45:00-05:00",
+        "origen": "proveedor_b"
+      }
+    },
+    {
+      "id_trazabilidad": "B-0191",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0192",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0193",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0194",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0195",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0196",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0197",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0198",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0199",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    },
+    {
+      "id_trazabilidad": "B-0200",
+      "origen": "proveedor_b",
+      "resultado": "error_comunicacion",
+      "motivo": "Envío omitido: la API no respondió en registros anteriores"
+    }
+  ]
+}
