@@ -1,0 +1,22 @@
+from fastapi import FastAPI
+from sqlalchemy import text
+from sqlalchemy.exc import SQLAlchemyError
+from api.estudiantes import router as estudiantes_router
+from database import SessionLocal
+
+app = FastAPI(title="API de estudiantes")
+app.include_router(estudiantes_router)
+
+
+@app.get("/")
+def read_root():
+    return {"message": "API de estudiantes conectada a PostgreSQL"}
+
+@app.get("/health/db")
+def health_db():
+    try:
+        with SessionLocal() as db:
+            db.execute(text("SELECT 1"))
+        return {"database": "ok"}
+    except SQLAlchemyError as exc:
+        return {"database": "unavailable", "detail": str(exc)}
