@@ -1,0 +1,39 @@
+﻿PRUEBA: Mensaje vßlido (solo se valida, no se guarda)
+   Entrada: {"sensor_id": "WQ-002", "timestamp": "2026-10-10T23:46:37Z", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": 21.66, "unit": "C"}}}
+   Resultado: ACEPTADO
+
+PRUEBA: Sensor inexistente
+   Entrada: {"sensor_id": "XX-999", "timestamp": "2026-10-10T23:46:37Z", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": 21.66, "unit": "C"}}}
+   Motivo: MENSAJE RECHAZADO: Sensor inexistente: 'XX-999'
+   Resultado: RECHAZADO
+
+PRUEBA: Unidad incorrecta
+   Entrada: {"sensor_id": "WQ-002", "timestamp": "2026-10-10T23:46:37Z", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": 21.66, "unit": "F"}}}
+   Motivo: MENSAJE RECHAZADO: Unidad incorrecta en 'temperature': recibida 'F', esperada 'C'
+   Resultado: RECHAZADO
+
+PRUEBA: Tipo de dato incorrecto
+   Entrada: {"sensor_id": "WQ-002", "timestamp": "2026-10-10T23:46:37Z", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": "abc", "unit": "C"}}}
+   Motivo: MENSAJE RECHAZADO: Estructura invßlida: measurements.temperature.value.int: Input should be a valid integer; measurements.temperature.value.float: Input should be a valid number
+   Resultado: RECHAZADO
+
+PRUEBA: Magnitud incorrecta
+   Entrada: {"sensor_id": "WQ-002", "timestamp": "2026-10-10T23:46:37Z", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": 21.66, "unit": "C"}, "ph": {"value": 7.0, "unit": "pH"}}}
+   Motivo: MENSAJE RECHAZADO: Magnitud 'ph' no pertenece al sensor WQ-002
+   Resultado: RECHAZADO
+
+PRUEBA: Timestamp invßlido
+   Entrada: {"sensor_id": "WQ-002", "timestamp": "ayer", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": 21.66, "unit": "C"}}}
+   Motivo: MENSAJE RECHAZADO: Estructura invßlida: timestamp: Input should be a valid datetime or date, input is too short
+   Resultado: RECHAZADO
+
+PRUEBA: Valor fuera de rango
+   Entrada: {"sensor_id": "WQ-002", "timestamp": "2026-10-10T23:46:37Z", "measurements": {"conductivity": {"value": 832.82, "unit": "uS/cm"}, "temperature": {"value": 99, "unit": "C"}}}
+   Motivo: MENSAJE RECHAZADO: Valor fuera de rango en 'temperature': 99.0 (permitido 0.0 a 50.0)
+   Resultado: RECHAZADO
+
+PRUEBA: JSON roto
+   Entrada: {esto no es json
+   Motivo: MENSAJE RECHAZADO: JSON invßlido: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+   Resultado: RECHAZADO
+

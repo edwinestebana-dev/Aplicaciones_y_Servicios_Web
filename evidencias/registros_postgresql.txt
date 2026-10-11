@@ -1,0 +1,8 @@
+﻿Total de mediciones del sensor WQ-002 en PostgreSQL: 790
+
+mediciones.id=139025 | sensor_magnitud_id=27 -> sensor_magnitudes.id=27 (temperature, C) | sensor_id=10 -> sensores.id=10 (WQ-002) | valor=19.5700 | timestamp_utc=2026-10-11 04:28:18+00:00
+mediciones.id=139024 | sensor_magnitud_id=28 -> sensor_magnitudes.id=28 (conductivity, uS/cm) | sensor_id=10 -> sensores.id=10 (WQ-002) | valor=1247.4200 | timestamp_utc=2026-10-11 04:28:18+00:00
+mediciones.id=139020 | sensor_magnitud_id=27 -> sensor_magnitudes.id=27 (temperature, C) | sensor_id=10 -> sensores.id=10 (WQ-002) | valor=29.2300 | timestamp_utc=2026-10-11 04:28:13+00:00
+mediciones.id=139019 | sensor_magnitud_id=28 -> sensor_magnitudes.id=28 (conductivity, uS/cm) | sensor_id=10 -> sensores.id=10 (WQ-002) | valor=248.8000 | timestamp_utc=2026-10-11 04:28:13+00:00
+mediciones.id=139015 | sensor_magnitud_id=27 -> sensor_magnitudes.id=27 (temperature, C) | sensor_id=10 -> sensores.id=10 (WQ-002) | valor=26.7400 | timestamp_utc=2026-10-11 04:28:08+00:00
+mediciones.id=139014 | sensor_magnitud_id=28 -> sensor_magnitudes.id=28 (conductivity, uS/cm) | sensor_id=10 -> sensores.id=10 (WQ-002) | valor=289.8400 | timestamp_utc=2026-10-11 04:28:08+00:00
